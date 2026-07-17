@@ -3,8 +3,8 @@ public class Car extends Vehicle {
 
     private double dailyInsurance;
 
-    public Car(double dailyRate, double dailyInsurance) {
-        super(dailyRate);
+    public Car(String plateNumber, String brand, double dailyRate, double dailyInsurance) {
+        super(plateNumber, brand, dailyRate);
         this.dailyInsurance = dailyInsurance;
     }
 
